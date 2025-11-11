@@ -1,0 +1,25 @@
+/* src/global.css */
+/* ===== Paleta VISIONPLUS (opaca, sin glow) ===== */
+:root{
+  --bg:#0e1117;
+  --panel:#141925;
+  --panel-2:#1a2030;
+  --purple:#9d4edd;      /* base sólido */
+  --purple-2:#7b2cbf;    /* hover más oscuro */
+  --text:#e8eaf0;
+  --muted:#aeb3c2;
+  --line:#3b4454;        /* líneas sutiles */
+}
+
+/* Base */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:"Nunito Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color:var(--text);
+  background:var(--bg);
+}
+
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800;900&display=swap');
